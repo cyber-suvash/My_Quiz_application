@@ -66,7 +66,7 @@ const questions = [
         question: `
                 for i in range(3):
                 for j in range(i):
-                print(j, end=" ")
+                print(j)
                 print()`,
         answer: [
             
