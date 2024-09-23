@@ -244,7 +244,7 @@ function setValue(){
         else if(score<5){
             questionId.textContent=`< ${score}/${questions.length} > Utha le re baba..`
         }
-        else if(score==5){
+        else if(score==5 || score==6){
             questionId.textContent=`< ${score}/${questions.length} > Haar kar jeetne wale ko baazigar kehte hai `
         }
         else if(score>6 && score<9 ){
