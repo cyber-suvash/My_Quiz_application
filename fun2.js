@@ -28,8 +28,7 @@ const questions = [
     }
     ,
     {
-        question: `
-                 x = 0
+        question: ` x = 0
                  while x < 5:
                  if x == 3:
                  break
@@ -186,7 +185,7 @@ function showAllQuestions(index) {
         const button = document.createElement('button');
         button.innerHTML = ans.text;
         button.classList.add("btn");
-        button.setAttribute("data-index", i);
+        // button.setAttribute("data-index", i);
 
         if(ans.correct){
             button.dataset.correct=ans.correct
